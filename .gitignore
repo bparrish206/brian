@@ -2,3 +2,4 @@ node_modules
 build/
 bower_components
 tests/angular_testbundle.js
+npm-debug.log
