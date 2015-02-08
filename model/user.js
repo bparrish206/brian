@@ -3,13 +3,13 @@
 var mongoose = require('mongoose');
 
 var userSchema = mongoose.Schema({
-  userFirstName:String,
-  userLastName:String,
-  userEmail:String,
-  userAddress:String,
-  userCity:String,
-  userST:String,
-  userZip:String,
+  firstName:String,
+  lastName:String,
+  email:String,
+  address:String,
+  city:String,
+  ST:String,
+  zip:String,
   order:[
   {
   quantity:0,
